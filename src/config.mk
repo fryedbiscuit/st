@@ -4,7 +4,7 @@ VERSION = 0.8.4
 # Customize below to fit your system
 
 # paths
-PREFIX = /usr/local
+PREFIX = /data/data/com.termux/files/home/packages/st
 MANPREFIX = $(PREFIX)/share/man
 
 X11INC = /usr/X11R6/include
@@ -32,4 +32,4 @@ STLDFLAGS = $(LIBS) $(LDFLAGS)
 #       `$(PKG_CONFIG) --libs freetype2`
 
 # compiler and linker
-# CC = c99
+CC = gcc
