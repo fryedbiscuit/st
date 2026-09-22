@@ -5,6 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
+
+#include <stddef.h>
+
 static char *font = "Source Code Pro:pixelsize=14:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
